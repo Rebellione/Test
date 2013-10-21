@@ -6,12 +6,12 @@ $Fndprod = $_GET='prodname';
 
 $Fount[] = new ArrayObject();
 
-$ArIter = new ArrayIterator();
-for ($i=0;i<$ArIter;$i++)
+$Ar = 5;
+for ($i=0;i<$Ar;$i++)
 {
-    if($ArrayPr[$ArIter] == $Fndprod)
+    if($ArrayPr[$i] == $Fndprod)
     {
-            $Fount = $ArrayPr[$ArIter];
+            $Fount = $ArrayPr[$i];
     }
 }
 
